@@ -1,5 +1,5 @@
 # UnluPooTP1
-Resolucion de ejercicios
+Resolución de ejercicios Tp1
 
 Alumno: Ignacio Tomás Harbin
 Legajo: 190215
