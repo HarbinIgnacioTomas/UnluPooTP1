@@ -142,7 +142,7 @@ public class UtilidadesTareas {
 
     public void comprobarPrioridad(Tarea tarea){
         if (tarea.getFechaLimite().equals(LocalDate.now()) || tarea.getFechaLimite().equals(LocalDate.now().plusDays(1))){
-            tarea.setPrioridad("3");
+            tarea.setPrioridad("1");
         }
     }
 
@@ -216,7 +216,7 @@ public class UtilidadesTareas {
         for (i=0; i<listaDeTareas.size(); i++){
             Tarea tarea=listaDeTareas.get(i);
             this.comprobarVencimiento(tarea);
-            if (tarea.getEstado().equals("Incompleta") && tarea.getVencimiento().equals("Por vencer") && tarea.getPrioridad().equals("3")){
+            if (tarea.getEstado().equals("Incompleta") && tarea.getVencimiento().equals("Por vencer") && tarea.getPrioridad().equals("1")){
                 this.mostrarTarea(tarea.getDescripcion());
             }
         }
@@ -228,7 +228,7 @@ public class UtilidadesTareas {
         }
         for (i=0; i<listaDeTareas.size(); i++){
             Tarea tarea=listaDeTareas.get(i);
-            if (tarea.getEstado().equals("Incompleta") && tarea.getVencimiento().equals("Por vencer") && tarea.getPrioridad().equals("1")){
+            if (tarea.getEstado().equals("Incompleta") && tarea.getVencimiento().equals("Por vencer") && tarea.getPrioridad().equals("3")){
                 this.mostrarTarea(tarea.getDescripcion());
             }
         }
