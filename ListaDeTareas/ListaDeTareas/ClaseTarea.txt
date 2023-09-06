@@ -1,0 +1,14 @@
+La clase tarea tiene como atributos:
+-descripcion (private String)
+-fecha limite (private LocalDate)
+-fecha de recordatorio (private LocalDate)
+-fecha de realizacion (private LocalDate)
+-estado (private String)
+-estado de vencimiento (private String)
+-prioridad de 1 a 3 (private String)
+-colaboradores (private ArrayList<Colaborador>)
+
++permite setear descripcion, fecha limite, recordatorio, y prioridad al usuario mediante los metodos de la clase de Utilidades
++permite setear a "completo" su estado y su fecha de realizacion al usuario mediante los metodos de la clase Utilidades en caso de no estar "Vencida"
++permite modificar su estado de vencimiento mediante los metodos de la clase de Utilidades
++devolver cada uno de los atributos
